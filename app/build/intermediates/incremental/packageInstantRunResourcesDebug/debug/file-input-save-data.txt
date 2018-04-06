@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Apr 04 18:47:12 MSK 2018
+0.baseType=DIRECTORY
+0.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
+0.path=mylove.jpg
+0.set=ASSET
+count=1

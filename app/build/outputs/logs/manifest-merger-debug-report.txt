@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/genchildren/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9888b92bbf177f17dec042835a869db7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:6:22-77
+application
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:8:5-44:19
+MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/genchildren/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9888b92bbf177f17dec042835a869db7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/genchildren/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9888b92bbf177f17dec042835a869db7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.tsundere.teamhackage.MainActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.tsundere.teamhackage.AboutTeamActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:23:9-27:61
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:26:13-48
+	android:theme
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:25:13-46
+activity#com.example.tsundere.teamhackage.MemberListActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:28:9-32:47
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:31:13-63
+	android:theme
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:30:13-47
+activity#com.example.tsundere.teamhackage.AddMemberActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:33:9-34:51
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:33:19-52
+activity#com.example.tsundere.teamhackage.MemberInfoActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:35:9-39:56
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:38:13-63
+	android:theme
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:37:13-47
+activity#com.example.tsundere.teamhackage.EditMemberActivity
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:40:9-43:20
+	android:screenOrientation
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:40:19-53
+uses-sdk
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/genchildren/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9888b92bbf177f17dec042835a869db7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/genchildren/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9888b92bbf177f17dec042835a869db7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6be1c4fdd7b68f963292821eda77d921/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/929360838e1138340f189dc9673c8d30/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bc4f9f2f8375937137bcd62b755f58e4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/202274c2905be19346a3d7534993afe2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8f9fdc345a77707d2b8873cf0bb810e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0648e328622f2d0ed60a22f85090d30d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c344971be1b8e7702b276925ab825ea3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:26:13-58
