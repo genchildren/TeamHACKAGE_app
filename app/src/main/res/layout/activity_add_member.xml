@@ -29,11 +29,11 @@
         android:id="@+id/firstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
         android:layout_weight="4"
         android:ems="12"
-        android:hint="Имя"
-        android:layout_marginTop="40dp"
-        android:layout_marginStart="10dp"
+        android:hint="@string/firstNameString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="85dp" />
@@ -42,11 +42,11 @@
         android:id="@+id/lastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="4"
         android:ems="12"
-        android:hint="Фамилия"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="10dp"
+        android:hint="@string/lastNameString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="146dp" />
@@ -55,11 +55,11 @@
         android:id="@+id/fatherName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="2"
         android:ems="12"
-        android:hint="Отчество"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="10dp"
+        android:hint="@string/patronymicString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="200dp" />
@@ -69,37 +69,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="2"
         android:ems="12"
-        android:hint="Группа"
-        android:layout_marginTop="20dp"
+        android:hint="@string/groupString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="260dp" />
 
     <EditText
         android:id="@+id/aboutTitle"
-        android:inputType="textMultiLine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_weight="2"
         android:ems="12"
-        android:hint="О себе" />
+        android:hint="@string/aboutInfoString"
+        android:inputType="textMultiLine" />
 
     <Button
         android:id="@+id/imageUploadButton"
         style="?android:attr/borderlessButtonStyle"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:onClick="getImageOnClick"
-        android:text="Загрузить фотографию" />
+        android:text="@string/AddPhotoString"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"

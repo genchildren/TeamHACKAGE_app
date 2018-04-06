@@ -35,7 +35,6 @@
                 android:layout_marginStart="20dp"
                 android:shadowColor="@color/cardview_dark_background"
                 android:shadowRadius="5"
-                android:text="Имя твоё"
                 android:textColor="@android:color/background_light"
                 android:textSize="26sp"
                 android:textStyle="bold" />
@@ -63,7 +62,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:text="Группа"
+            android:text="@string/groupString"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -75,7 +74,6 @@
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/groupTitle"
             android:layout_centerHorizontal="true"
-            android:text="TextView"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp" />
 
@@ -86,10 +84,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/groupTitle"
             android:layout_marginTop="82dp"
+            android:text="@string/aboutMeString"
             android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
             android:textSize="18sp"
-            android:text="О себе" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/aboutInfo"
@@ -98,8 +96,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/groupTitle"
             android:layout_marginTop="140dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="TextView" />
+            android:textColor="@color/colorPrimaryDark" />
 
     </RelativeLayout>
 

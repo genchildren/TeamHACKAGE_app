@@ -138,7 +138,7 @@ public class EditMemberActivity extends AppCompatActivity {
     }
 
     public void deleteMemberOnClick(View view) { //Удаление участника с вызовом AlertDialog
-        
+
         AlertDialog.Builder ad = new AlertDialog.Builder(this);
         ad.setTitle("Удаление участника");
         ad.setMessage("Вы действительно хотите удалить участника?");

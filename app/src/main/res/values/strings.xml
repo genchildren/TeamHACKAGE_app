@@ -1,15 +1,23 @@
 <resources>
     <string name="app_name">Team HACKAGE</string>
     <string name="HackageName">Team HACKAGE</string>
-    <string name="toMemberList">Список участников</string>
-    <string name="toAboutTeam">О команде</string>
-    <string name="aboutTeamTextValue">До сих пор никому не известные лидеры в сфере мобильной разработки</string>
+    <string name="toMemberList">Members list</string>
+    <string name="toAboutTeam">About team</string>
+    <string name="aboutTeamTextValue">Unknown team of beginners in android development with great potential</string>
     <string name="title_activity_member_list">MemberListActivity</string>
-    <string name="AddMemberTitle">Добавление участника</string>
-    <string name="ApplyNewMember">Добавить</string>
-    <string name="Cancel">Отмена</string>
+    <string name="AddMemberTitle">Adding new member</string>
+    <string name="ApplyNewMember">Add</string>
+    <string name="Cancel">Cancel</string>
     <string name="title_activity_member_info">MemberInfoActivity</string>
     <string name="action_settings">Settings</string>
-    <string name="editMemberTitle">Редактирование участника</string>
-    <string name="applyEdit">Сохранить</string>
+    <string name="editMemberTitle">Member editing</string>
+    <string name="applyEdit">Save</string>
+    <string name="AddPhotoString">Add photo</string>
+    <string name="deleteMemberString">Delete member</string>
+    <string name="groupString">Group</string>
+    <string name="aboutMeString">About me</string>
+    <string name="firstNameString">First name</string>
+    <string name="lastNameString">Last name</string>
+    <string name="patronymicString">Patronymic</string>
+    <string name="aboutInfoString">About info</string>
 </resources>

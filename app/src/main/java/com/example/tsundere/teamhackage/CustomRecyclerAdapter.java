@@ -20,7 +20,7 @@ import java.util.List;
 public class CustomRecyclerAdapter
         extends RecyclerView.Adapter<CustomRecyclerAdapter.MemberViewHolder> {
 
-    public List<Integer> membersList; //Список идентификаторов участников
+    private List<Integer> membersList; //Список идентификаторов участников
 
     public CustomRecyclerAdapter(List<Integer> membersList) {
         this.membersList = membersList;

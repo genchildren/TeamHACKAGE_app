@@ -67,31 +67,31 @@ public class DBHelper extends SQLiteOpenHelper {
 
         //  -- Добавление в БД информации об участниках hackage --
         ContentValues cvVlP = new ContentValues();
-        cvVlP.put(DBHelper.FIRST_NAME, "Владислав");
-        cvVlP.put(DBHelper.SECOND_NAME, "Пинчук");
-        cvVlP.put(DBHelper.PATRONYMIC, "Александрович");
-        cvVlP.put(DBHelper.GROUP, "ИУ9-23Б");
-        cvVlP.put(DBHelper.ABOUT_ME, "Тимлид который ничего не умеет");
+        cvVlP.put(DBHelper.FIRST_NAME, "Vladislav");
+        cvVlP.put(DBHelper.SECOND_NAME, "Pinchuk");
+        cvVlP.put(DBHelper.PATRONYMIC, "Alexandrovich");
+        cvVlP.put(DBHelper.GROUP, "IU9-23");
+        cvVlP.put(DBHelper.ABOUT_ME, "Useless teamlead, boring guy");
 
         ContentValues cvDiB = new ContentValues();
-        cvDiB.put(DBHelper.FIRST_NAME, "Дмитрий");
-        cvDiB.put(DBHelper.SECOND_NAME, "Бокарев");
-        cvDiB.put(DBHelper.PATRONYMIC, "Вячеславович");
-        cvDiB.put(DBHelper.GROUP, "ИУ9-23Б");
+        cvDiB.put(DBHelper.FIRST_NAME, "Dmitriy");
+        cvDiB.put(DBHelper.SECOND_NAME, "Bokarev");
+        cvDiB.put(DBHelper.PATRONYMIC, "Vyacheslavovich");
+        cvDiB.put(DBHelper.GROUP, "IU9-23");
         cvDiB.put(DBHelper.ABOUT_ME, "Says he`s going to help but he`s not");
 
         ContentValues cvKiS = new ContentValues();
-        cvKiS.put(DBHelper.FIRST_NAME, "Кирилл");
-        cvKiS.put(DBHelper.SECOND_NAME, "Снегур");
-        cvKiS.put(DBHelper.PATRONYMIC, "Викторович");
-        cvKiS.put(DBHelper.GROUP, "ИУ9-23Б");
+        cvKiS.put(DBHelper.FIRST_NAME, "Kirill");
+        cvKiS.put(DBHelper.SECOND_NAME, "Snegur");
+        cvKiS.put(DBHelper.PATRONYMIC, "Viktorovich");
+        cvKiS.put(DBHelper.GROUP, "IU9-23");
         cvKiS.put(DBHelper.ABOUT_ME, "Has no idea what`s going on the whole time");
 
         ContentValues cvVaZ = new ContentValues();
-        cvVaZ.put(DBHelper.FIRST_NAME, "Вадим");
-        cvVaZ.put(DBHelper.SECOND_NAME, "Жданов");
-        cvVaZ.put(DBHelper.PATRONYMIC, "Андреевич");
-        cvVaZ.put(DBHelper.GROUP, "ИУ9-23Б");
+        cvVaZ.put(DBHelper.FIRST_NAME, "Vadim");
+        cvVaZ.put(DBHelper.SECOND_NAME, "Zhdanov");
+        cvVaZ.put(DBHelper.PATRONYMIC, "Andreevich");
+        cvVaZ.put(DBHelper.GROUP, "IU9-23");
         cvVaZ.put(DBHelper.ABOUT_ME, "Dissapear at the very beginning and doesn`t show up again til the very end");
 
         try { //  -- Получение фото --

@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:weightSum="22"
     tools:context="com.example.tsundere.teamhackage.AddMemberActivity">
@@ -30,10 +30,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
         android:layout_weight="1"
         android:ems="12"
-        android:hint="Имя"
-        android:layout_marginTop="40dp"
+        android:hint="@string/firstNameString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="85dp" />
@@ -43,10 +43,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:ems="12"
-        android:hint="Фамилия"
-        android:layout_marginTop="20dp"
+        android:hint="@string/lastNameString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="146dp" />
@@ -56,10 +56,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:ems="12"
-        android:hint="Отчество"
-        android:layout_marginTop="20dp"
+        android:hint="@string/patronymicString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="200dp" />
@@ -69,38 +69,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:ems="12"
-        android:hint="Группа"
-        android:layout_marginTop="20dp"
+        android:hint="@string/groupString"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="260dp" />
 
     <EditText
         android:id="@+id/aboutEdit"
-        android:inputType="textMultiLine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:ems="12"
-        android:hint="О себе" />
+        android:hint="@string/aboutInfoString"
+        android:inputType="textMultiLine" />
 
 
     <Button
         android:id="@+id/imageUploadButton"
         style="?android:attr/borderlessButtonStyle"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:onClick="uploadImageOnClick"
-        android:text="Загрузить фотографию" />
+        android:text="@string/AddPhotoString"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -132,16 +132,15 @@
             android:textStyle="bold"/>
 
         <Button
-            style="?android:attr/borderlessButtonStyle"
             android:id="@+id/deleteMember"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:textStyle="bold"
-            android:textColor="#ff0000"
             android:onClick="deleteMemberOnClick"
-            android:text="Удалить участника" />
+            android:text="@string/deleteMemberString"
+            android:textColor="#ff0000"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

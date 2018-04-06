@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.0"
-    timestamp="1523035416729"
+    timestamp="1523044369297"
     token="2185459118628576459"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="132" />
+        duration="2844" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="127" />
     <task
         name="verifier"
-        duration="1" />
+        duration="95" />
 
     <artifact
         location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -33,10 +33,10 @@
         location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1523035416729"
+        timestamp="1523044369297"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -77,10 +77,10 @@
             location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
