@@ -83,9 +83,9 @@ public class EditMemberActivity extends AppCompatActivity {
                 imgByteArray = ImageDecoder.bitmapToByteArray(selectedImage); //Преобразуем изображение в байтовый массив и сохраняем в приватном поле
 
             } catch (FileNotFoundException e) {
-                Toast.makeText(this, "Не удалось загрузить фото", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Can't upload photo", Toast.LENGTH_SHORT).show();
             } catch (IOException e) {
-                Toast.makeText(this, "Ошибка закрытия потока вывода", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Output stream closing error", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -127,7 +127,7 @@ public class EditMemberActivity extends AppCompatActivity {
         } else { //Если данные не удовлетворяют требованиям
             Toast.makeText(
                     EditMemberActivity.this,
-                    "Ошибка редактирования участника, проверьте введенные данные и попробуйте снова",
+                    "Can't edit member, please check that your input data is correct and try again",
                     Toast.LENGTH_SHORT).show();
         }
     }
@@ -140,21 +140,23 @@ public class EditMemberActivity extends AppCompatActivity {
     public void deleteMemberOnClick(View view) { //Удаление участника с вызовом AlertDialog
 
         AlertDialog.Builder ad = new AlertDialog.Builder(this);
-        ad.setTitle("Удаление участника");
-        ad.setMessage("Вы действительно хотите удалить участника?");
+        ad.setTitle("Delete member");
+        ad.setMessage("Are you sure that you want to delete this member?");
         final Context context = ad.getContext();
-        ad.setPositiveButton("Да", new DialogInterface.OnClickListener() {
+        ad.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 WritableDBHelper writableDB = new WritableDBHelper(context);
                 writableDB.deleteMember(id);
                 Intent toMemberListIntent = new Intent(context, MemberListActivity.class);
-                Toast.makeText(context, "Участник был успешно удален", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Member has been successfully deleted", Toast.LENGTH_SHORT).show();
                 writableDB.close();
-                startActivity(toMemberListIntent);
+                toMemberListIntent.putExtra("delete", true);
+                setResult(RESULT_OK, toMemberListIntent);
+                finish();
             }
         });
-        ad.setNegativeButton("Нет", new DialogInterface.OnClickListener() {
+        ad.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {}
         });

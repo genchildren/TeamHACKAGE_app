@@ -56,7 +56,7 @@ public class AddMemberActivity extends AppCompatActivity {
             WritableDBHelper database = new WritableDBHelper(this); //Получаем доступ к Writable базе данных для добавления нового участника
             long id = database.addMember(firstName, lastName, fatherName, group, about, imgByteArray); //Добавление участника в базу данных и получение его идентификатора
 
-            Toast.makeText(this, "Новый участник успешно добавлен", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "New member has been successfully added", Toast.LENGTH_SHORT).show();
 
             Intent returnDataIntent = new Intent();
 
@@ -69,7 +69,7 @@ public class AddMemberActivity extends AppCompatActivity {
         } else { //Если данные не удовлетворяют требованиям
             Toast.makeText(
                     AddMemberActivity.this,
-                    "Ошибка добавления нового участника, проверьте введенные данные и попробуйте снова",
+                    "Can't add new member, please check that your input data is correct and try again",
                     Toast.LENGTH_SHORT).show();
         }
     }
@@ -128,9 +128,9 @@ public class AddMemberActivity extends AppCompatActivity {
                 imgByteArray = ImageDecoder.bitmapToByteArray(selectedImage); //Преобразуем изображение в байтовый массив и сохраняем в приватном поле
 
             } catch (FileNotFoundException e) {
-                Toast.makeText(this, "Не удалось загрузить изображение", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Can't upload image: image not found", Toast.LENGTH_SHORT).show();
             } catch (IOException e) {
-                Toast.makeText(this, "Ошибка закрытия потока вывода", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Output stream closing error", Toast.LENGTH_SHORT).show();
             }
         }
     }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/c9ff1d7575fd900ec04a4e510de1eaf4/AndroidManifest.xml:17:1-28:12
@@ -19,33 +19,25 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /home/genchildren/
 MERGED from [com.android.support:support-core-utils:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/50317d6a9dc71a5124027d6883d61122/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ceddcdaac458b74276e90c5bd5e27ea8/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:1-43:12
 		INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:5:5-80
-	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:5:22-78
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:6:5-79
-	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:6:22-77
 application
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:8:5-44:19
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:5:5-41:19
 MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/0cfbb63e069f49645485d9fd33f55453/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:cardview-v7:26.1.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/774f7986f1450d64fe00a11558e8a21c/AndroidManifest.xml:22:5-26:19
@@ -77,75 +69,75 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/genchildren/.gradl
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/genchildren/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/49985e2b0ce0fa63cc094608676fa6b3/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.tsundere.teamhackage.MainActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:9-22:20
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:12:9-19:20
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:16:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:13:13-49
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:17:27-74
 activity#com.example.tsundere.teamhackage.AboutTeamActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:23:9-27:61
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:20:9-24:61
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:24:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:21:13-49
 	android:label
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:26:13-48
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:23:13-48
 	android:theme
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:27:13-58
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:24:13-58
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:25:13-46
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:22:13-46
 activity#com.example.tsundere.teamhackage.MemberListActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:28:9-32:47
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:25:9-29:47
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:29:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:26:13-49
 	android:label
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:31:13-63
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:28:13-63
 	android:theme
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:32:13-44
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:29:13-44
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:30:13-47
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:27:13-47
 activity#com.example.tsundere.teamhackage.AddMemberActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:33:9-34:51
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:30:9-31:51
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:31:13-49
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:33:19-52
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:30:19-52
 activity#com.example.tsundere.teamhackage.MemberInfoActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:35:9-39:56
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:32:9-36:56
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:33:13-49
 	android:label
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:38:13-63
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:35:13-63
 	android:theme
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:39:13-44
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:37:13-47
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:34:13-47
 activity#com.example.tsundere.teamhackage.EditMemberActivity
-ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:40:9-43:20
+ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:37:9-40:20
 	android:screenOrientation
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:40:19-53
+		ADDED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml:37:19-53
 uses-sdk
 INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/AndroidManifest.xml

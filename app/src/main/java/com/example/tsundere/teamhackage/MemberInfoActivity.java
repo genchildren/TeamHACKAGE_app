@@ -60,7 +60,9 @@ public class MemberInfoActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == TO_EDIT_ACTIVITY_REQUEST) {
-            if (resultCode == RESULT_OK) {
+            if (data!=null && data.getExtras() != null && data.getExtras().containsKey("delete")) {
+                finish();
+            } else if (resultCode == RESULT_OK) {
                 ReadableDBHelper database = new ReadableDBHelper(this, id);
                 byte[] imageByteArray = database.getImageArray();
                 Bitmap imageBitmap = ImageDecoder.bitmapFromByteArrayHighQ(imageByteArray);
