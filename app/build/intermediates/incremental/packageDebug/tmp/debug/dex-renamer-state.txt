@@ -1,4 +1,7 @@
-#Sun Apr 08 14:39:17 MSK 2018
-base.0=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/59
+#Sun Apr 08 15:50:24 MSK 2018
+base.0=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/87
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/86

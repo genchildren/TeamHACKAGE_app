@@ -96,6 +96,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/groupTitle"
             android:layout_marginTop="140dp"
+            android:layout_marginRight="10dp"
             android:textColor="@color/colorPrimaryDark" />
 
     </RelativeLayout>

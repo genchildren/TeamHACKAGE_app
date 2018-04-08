@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 06 19:29:33 MSK 2018
+#Sun Apr 08 15:50:10 MSK 2018
 2.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
 0.path=default_avatar.png
 2.baseType=DIRECTORY

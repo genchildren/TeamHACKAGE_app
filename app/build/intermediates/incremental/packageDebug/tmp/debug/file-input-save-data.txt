@@ -1,27 +1,31 @@
 #Internal package file, do not edit.
-#Sun Apr 08 14:39:18 MSK 2018
-2.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/59
+#Sun Apr 08 15:50:24 MSK 2018
+2.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
 5.set=ASSET
 0.path=default_avatar.png
 2.baseType=DIRECTORY
-3.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
-2.set=DEX
-1.path=kirill.jpg
+3.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/87
+2.set=ASSET
+1.path=classes.dex
 4.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
-count=6
+count=7
 5.baseType=DIRECTORY
-2.path=classes.dex
+2.path=kirill.jpg
 5.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
 4.set=ASSET
-3.path=vadim.jpg
+3.path=classes.dex
+6.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
 3.baseType=DIRECTORY
-1.set=ASSET
-4.path=vladik.jpg
+1.set=DEX
+4.path=vadim.jpg
+6.set=ASSET
 1.baseType=DIRECTORY
-5.path=dima.jpg
+6.baseType=DIRECTORY
+5.path=vladik.jpg
 0.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
-3.set=ASSET
-1.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/assets/debug
+3.set=DEX
+6.path=dima.jpg
+1.base=/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/transforms/dexMerger/debug/86
 4.baseType=DIRECTORY
 0.set=ASSET

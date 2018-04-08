@@ -70,7 +70,7 @@ public class AddMemberActivity extends AppCompatActivity {
 
             Intent returnDataIntent = new Intent();
 
-            returnDataIntent.putExtra("MEMBER_ID", id); //В возвращаемых значениях сохраняем идентификатор добавленного участника
+            returnDataIntent.putExtra(MEMBER_ID, id); //В возвращаемых значениях сохраняем идентификатор добавленного участника
             database.close();
 
             setResult(RESULT_OK, returnDataIntent);
