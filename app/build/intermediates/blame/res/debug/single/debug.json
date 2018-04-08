@@ -140,6 +140,10 @@
         "source": "/home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/res/merged/debug/xml_app_provider_paths.xml.flat",
+        "source": "/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/src/main/res/xml/app_provider_paths.xml"
+    },
+    {
         "merged": "/home/genchildren/AndroidStudioProjects/TeamHACKAGE/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/genchildren/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dc60bff757557c3a41ee4140877fff4a/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },

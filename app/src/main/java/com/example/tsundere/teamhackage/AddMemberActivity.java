@@ -1,25 +1,35 @@
 package com.example.tsundere.teamhackage;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.provider.MediaStore;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+
 
 /* Активити для добавления нового участника команды */
 
 public class AddMemberActivity extends AppCompatActivity {
 
-    final private int RESULT_LOAD_IMG = 665; //Код для передачи управления галерее при получении аватарки участника команды
+    final private int RESULT_TAKE_PICTURE = 2; //Код идетифицирующий передачу управления камере при получении аватарки участника команды
+    final private int RESULT_LOAD_IMG = 1; //Код идентифицирующий передачу управления галерее при получении аватарки участника команды
+    final private String PROVIDER_AUTHORITY = "com.example.tsundere.teamhackage.provider"; //Идентифицируем FileProvider
     private byte[] imgByteArray; // Байтовый массив хранящий аватарку участника в пригодном для хранения в базе данных виде
+    final private String MEMBER_ID = "member_id";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,11 +66,11 @@ public class AddMemberActivity extends AppCompatActivity {
             WritableDBHelper database = new WritableDBHelper(this); //Получаем доступ к Writable базе данных для добавления нового участника
             long id = database.addMember(firstName, lastName, fatherName, group, about, imgByteArray); //Добавление участника в базу данных и получение его идентификатора
 
-            Toast.makeText(this, "New member has been successfully added", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "New member added successfully", Toast.LENGTH_SHORT).show();
 
             Intent returnDataIntent = new Intent();
 
-            returnDataIntent.putExtra("member_id", id); //В возвращаемых значениях сохраняем идентификатор добавленного участника
+            returnDataIntent.putExtra("MEMBER_ID", id); //В возвращаемых значениях сохраняем идентификатор добавленного участника
             database.close();
 
             setResult(RESULT_OK, returnDataIntent);
@@ -93,9 +103,29 @@ public class AddMemberActivity extends AppCompatActivity {
 
     //Произвести запрос к галерее на получение изображения
     public void getImageOnClick(View view) {
-        Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
-        photoPickerIntent.setType("image/*");
-        startActivityForResult(photoPickerIntent, RESULT_LOAD_IMG);
+        AlertDialog.Builder builder = new AlertDialog.Builder(AddMemberActivity.this);
+        String[] arr = new String[] {"Choose from gallery", "Take a picture"};
+        builder.setTitle("Photo")
+                .setItems(arr, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        if (i == 0) {
+                            Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+                            photoPickerIntent.setType("image/*");
+                            startActivityForResult(photoPickerIntent, RESULT_LOAD_IMG);
+                        } else {
+                                File path = new File(getFilesDir(), ".");
+                                if (!path.exists()) path.mkdirs();
+                                File image = new File(path, "hackage_avatar.jpg");
+                                Uri imageUri = FileProvider.getUriForFile(AddMemberActivity.this, PROVIDER_AUTHORITY, image);
+                                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                                startActivityForResult(takePictureIntent, RESULT_TAKE_PICTURE);
+                        }
+                    }
+                });
+        builder.create();
+        builder.show();
     }
 
     //Получение результата от галереи
@@ -104,33 +134,54 @@ public class AddMemberActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) { //Если запрос был успешно обработан
             try {
-                //Получаем и сжимаем изображение
-                Uri imgUri = data.getData();
-                InputStream imageStream = getContentResolver().openInputStream(imgUri);
+                if (requestCode == RESULT_LOAD_IMG) { //Если получаем результат от галереи
+                    //Получаем и сжимаем изображение
+                    Uri imgUri = data.getData();
+                    InputStream imageStream = getContentResolver().openInputStream(imgUri);
 
-                BitmapFactory.Options bmFactoryOptions = new BitmapFactory.Options();
-                bmFactoryOptions.inJustDecodeBounds = true;
+                    BitmapFactory.Options options = new BitmapFactory.Options();
+                    options.inJustDecodeBounds = true;
 
-                BitmapFactory.decodeStream(imageStream, null, bmFactoryOptions); //Получаем характеристики изображения
+                    BitmapFactory.decodeStream(imageStream, null, options); //Получаем характеристики изображения
 
-                imageStream.close();
+                    imageStream.close();
 
-                int maxDimSize = Math.max(bmFactoryOptions.outWidth, bmFactoryOptions.outHeight);
-                int scale = Math.max(1, Math.round((float)maxDimSize / (float)1280)); //Подсчитываем коэффициент сжатия которое необходимо произвести над изображением
+                    int maxDimSize = Math.max(options.outWidth, options.outHeight);
+                    int scale = Math.max(1, Math.round((float) maxDimSize / (float) 1280)); //Подсчитываем коэффициент сжатия которое необходимо произвести над изображением
 
-                bmFactoryOptions = new BitmapFactory.Options();
-                bmFactoryOptions.inSampleSize = scale; //Устанавливаем коэффициент сжатия
-                bmFactoryOptions.inPreferredConfig = Bitmap.Config.RGB_565; //Устанавливаем цветовой конфиг
+                    options = new BitmapFactory.Options();
+                    options.inSampleSize = scale; //Устанавливаем коэффициент сжатия
+                    options.inPreferredConfig = Bitmap.Config.RGB_565; //Устанавливаем цветовой конфиг
 
-                imageStream = getContentResolver().openInputStream(imgUri);
+                    imageStream = getContentResolver().openInputStream(imgUri);
 
-                final Bitmap selectedImage = BitmapFactory.decodeStream(imageStream, null, bmFactoryOptions); //Получаем изображение в сжатом виде в качестве Bitmap объекта
-                imgByteArray = ImageDecoder.bitmapToByteArray(selectedImage); //Преобразуем изображение в байтовый массив и сохраняем в приватном поле
+                    final Bitmap selectedImage = BitmapFactory.decodeStream(imageStream, null, options); //Получаем изображение в сжатом виде в качестве Bitmap объекта
+                    imgByteArray = ImageDecoder.bitmapToByteArray(selectedImage); //Преобразуем изображение в байтовый массив и сохраняем в приватном поле
 
+                } else { //Получаем результат от камеры
+
+                    File path = new File(getFilesDir(), ".");
+                    File imageFile = new File(path, "hackage_avatar.jpg"); //Находим полученную фотографию
+
+                    BitmapFactory.Options options = new BitmapFactory.Options();
+                    options.inJustDecodeBounds = true;
+
+                    BitmapFactory.decodeFile(imageFile.getAbsolutePath(),options);
+
+                    int maxDimSize = Math.max(options.outWidth, options.outHeight);
+                    int scale = Math.max(1, Math.round((float) maxDimSize / (float) 1280));
+
+                    options = new BitmapFactory.Options();
+                    options.inSampleSize = scale;
+                    options.inPreferredConfig = Bitmap.Config.RGB_565;
+
+                    Bitmap imageBitmap = BitmapFactory.decodeFile(imageFile.getAbsolutePath(), options); //Декодируем фотографию в соответствии с настройками сжатия
+                    imgByteArray = ImageDecoder.bitmapToByteArray(imageBitmap);
+                }
             } catch (FileNotFoundException e) {
                 Toast.makeText(this, "Can't upload image: image not found", Toast.LENGTH_SHORT).show();
             } catch (IOException e) {
-                Toast.makeText(this, "Output stream closing error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Error: Can't close output stream", Toast.LENGTH_SHORT).show();
             }
         }
     }

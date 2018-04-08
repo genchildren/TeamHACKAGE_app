@@ -18,7 +18,8 @@ public class MemberInfoActivity extends AppCompatActivity {
     private TextView fullName, about, group;
     private ImageView memberPhoto;
     private int id;
-    final private int TO_EDIT_ACTIVITY_REQUEST = 123;
+    final private int TO_EDIT_ACTIVITY_REQUEST = 1;
+    final private String MEMBER_ID = "member_id";
 
 
     @Override
@@ -27,7 +28,7 @@ public class MemberInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_member_info);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        id = getIntent().getIntExtra("member_id", 0); //Получаем идентификатор участника, информацию о котором мы хотим отобразить
+        id = getIntent().getIntExtra(MEMBER_ID, 0); //Получаем идентификатор участника, информацию о котором мы хотим отобразить
         ReadableDBHelper database = new ReadableDBHelper(this, id); //Получаем доступ к базе данных для чтения
 
         //Получаем и отображаем информацию в полях
@@ -48,7 +49,7 @@ public class MemberInfoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Запуск активити редактирования информации об участнике
                 Intent toEditActivityIntent = new Intent(MemberInfoActivity.this, EditMemberActivity.class);
-                toEditActivityIntent.putExtra("member_id", id);
+                toEditActivityIntent.putExtra(MEMBER_ID, id);
                 startActivityForResult(toEditActivityIntent,TO_EDIT_ACTIVITY_REQUEST);
             }
         });
@@ -59,7 +60,6 @@ public class MemberInfoActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == TO_EDIT_ACTIVITY_REQUEST) {
             if (data!=null && data.getExtras() != null && data.getExtras().containsKey("delete")) {
                 finish();
             } else if (resultCode == RESULT_OK) {
@@ -73,7 +73,6 @@ public class MemberInfoActivity extends AppCompatActivity {
                 group.setText(database.getMemberGroup());
                 database.close();
             }
-        }
     } 
 
 }

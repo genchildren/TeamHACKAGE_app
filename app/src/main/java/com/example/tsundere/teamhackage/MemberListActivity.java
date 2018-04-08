@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class MemberListActivity extends AppCompatActivity {
 
-    final private int ADD_MEMBER_REQUEST_CODE = 666; //Код запроса на добавление нового участника
+    final private int ADD_MEMBER_REQUEST_CODE = 1; //Код запроса на добавление нового участника
     private static ArrayList<Integer> members; //Список идентификаторов участников
     private RecyclerView rv;
 
