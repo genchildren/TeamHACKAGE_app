@@ -14,4 +14,6 @@ To install this app you need to save the install apk on your android device.
 path to apk: app/build/outputs/apk/debug/app-debug.apk 
 simply install this app using this apk.
 
-App has been tested on real devices with Android 7.0+ and on genymotion android emulator.
+System requirements: smartphone with Android 5.0 or higher
+
+App has been tested on Genymotion android emulator on different devices with android 5.0+.
